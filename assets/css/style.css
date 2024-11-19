@@ -87,3 +87,48 @@ main {
     border-radius: 15px;
     /* Adjust the px value as needed */
 }
+/* Style the services section */
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.services .service-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.services .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.services .service-card {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.services .service-card img {
+    width: 30%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.services .service-card .service-text {
+    font-size: 1rem;
+    color: #333;
+}
